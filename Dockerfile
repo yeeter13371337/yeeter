@@ -1,5 +1,3 @@
-FROM php:latest-apache
-#install all the dependencies
 RUN apt-get update && apt-get install -y \
       libicu-dev \
       libpq-dev \
